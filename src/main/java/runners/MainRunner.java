@@ -1,7 +1,7 @@
 package runners;
 
 public class MainRunner extends BaseRunner {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
         BaseRunner runner = new BaseRunner();
 
         runner.profileSetup();
